@@ -12,7 +12,12 @@
 // Import partials here
 
 .jumbotron {
-  background-image: url(C:\Users\18179\alyssa-bootstrap-practice\docs\img\pirate-ship.jpg)>
+  background: url("../img/pirate-ship.jpg") no-repeat center;
   background-size: cover;
-  height: 100%;}
+
+  h1, p {
+    color: white;
+    text-align: center;
+  }
+
 }
