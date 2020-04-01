@@ -10,6 +10,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+@import "footer";
 
 .jumbotron {
   background: url("../img/pirate-ship.jpg") no-repeat center;
@@ -20,4 +21,44 @@
     text-align: center;
   }
 
+  h1 {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  p {
+    font-size: medium;
+  }
+}
+
+.container {
+  text-align: left;
+  border: gray thick;
+
+
+  h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin:0;
+    font-size: 30px;
+    }
+  h4 {
+    font-family: 'Baloo 2', cursive;
+    padding-top: 0px;
+    font-size: 20px;
+  }
+}
+
+#credit {
+  padding: 0;
+  margin:0;
+}
+
+#source {
+  padding: 0;
+}
+
+blockquote {
+  border-left: 3px solid gray;
+  padding: 10px;
 }
