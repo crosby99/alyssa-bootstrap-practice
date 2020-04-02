@@ -12,6 +12,10 @@
 // Import partials here
 @import "footer";
 
+li:hover {
+  text-decoration: underline;
+}
+
 .jumbotron {
   background: url("../img/pirate-ship.jpg") no-repeat center;
   background-size: cover;
